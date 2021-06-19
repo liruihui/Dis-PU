@@ -1,6 +1,6 @@
 # Point Cloud Upsampling via Disentangled Refinement
 
-This repository contains a PyTorch implementation of the paper:
+This repository contains a Tensorflow implementation of the paper:
 
 [Point Cloud Upsampling via Disentangled Refinement](http://arxiv.org/abs/2106.04779). 
 <br>
@@ -65,7 +65,7 @@ If Dis-PU is useful for your research, please consider citing:
     @inproceedings{li2021dispu,
          title={Point Cloud Upsampling via Disentangled Refinement},
          author={Li, Ruihui and Li, Xianzhi and Heng, Pheng-Ann and Fu, Chi-Wing},
-         booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+         booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
          year = {2021}
      }
 
