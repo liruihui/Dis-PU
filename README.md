@@ -1,38 +1,18 @@
 # Point Cloud Upsampling via Disentangled Refinement
 
-This repository contains a PyTorch implementation of the paper (coming soon):
+This repository contains a PyTorch implementation of the paper:
 
-[Point Cloud Upsampling via Disentangled Refinement](XXX). 
+[Point Cloud Upsampling via Disentangled Refinement](http://arxiv.org/abs/2106.04779). 
 <br>
 [Ruihui Li](https://liruihui.github.io/), 
 [Xianzhi Li](https://nini-lxz.github.io/),
 [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng/), 
 [Chi-Wing Fu](http://www.cse.cuhk.edu.hk/~cwfu/).
 <br>
+<br>
 CVPR 2021
 
-
 ## Getting Started
-Clone the repository:
-```
-git clone https://github.com/liruihui/Dis-PU.git
-```
-
-Installation instructions for Ubuntu 16.04:
-     
-* Make sure <a href="https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html">CUDA</a>  and <a href="https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html">cuDNN</a> are installed. Only this configurations has been tested: 
-     - Python 3.6.9, TensorFlow 1.11.1
-
-
-* Follow <a href="https://www.tensorflow.org/install/pip">Tensorflow installation procedure</a>.
-     
-     
-* Compile the customized Tensorflow operators by `cd tf_ops & sh complile_op.sh`. 
-N.B. If you installed Tensorflow in a virtual environment, it needs to be activated when running these scripts
-
-
-
-### Usage
 
 1. Clone the repository:
 
